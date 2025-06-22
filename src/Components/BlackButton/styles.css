@@ -1,0 +1,10 @@
+.black-btn {
+  padding: 6px 16px;
+  background-color: black;
+  border-radius: 25px;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  cursor: pointer;
+  width: fit-content;
+}

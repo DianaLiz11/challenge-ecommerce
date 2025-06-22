@@ -1,0 +1,100 @@
+{
+  "products": [
+    {
+      "imageUrl": "https://media.ulta.com/i/ulta/2640715?w=400&$ProductCardNeutralBGLight$&fmt=auto",
+      "brand": "Sol de Janeiro",
+      "name":"Cheirosa 39 Hair & Body Perfume Mist",
+      "price": 25,
+      "score": {
+        "number": 4.5,
+        "reviews": 354
+      },
+      "off": 0,
+      "isFreeGift": false
+    },
+    {
+      "imageUrl": "https://media.ulta.com/i/ulta/2621475?w=400&$ProductCardNeutralBGLight$&fmt=auto",
+      "brand": "Live Tinted",
+      "name": "Hueguard Skin Tint SPF 50 Mineral Sunscreen Broad Spectrum",
+      "price": 42,
+      "score": {
+        "number": 4.1,
+        "reviews": 154
+      },
+      "off":0,
+      "isFreeGift": true
+    },
+    {
+      "imageUrl": "https://media.ulta.com/i/ulta/2610033?w=400&$ProductCardNeutralBGLight$&fmt=auto",
+      "brand": "DIME",
+      "name": "7 Summers Eau de Toilette",
+      "price": 62,
+      "score": {
+        "number": 4.7,
+        "reviews": 2354
+      },
+      "off": 20,
+      "isFreeGift": false
+    },
+    {
+      "imageUrl": "https://media.ulta.com/i/ulta/2611083?w=400&$ProductCardNeutralBGLight$&fmt=auto",
+      "brand": "LolaVie",
+      "name": "Glossing Detangler",
+      "price":28,
+      "score": {
+        "number": 4.7,
+        "reviews": 354
+      },
+      "off":0,
+      "isFreeGift": true
+    },
+    {
+      "imageUrl": "https://media.ulta.com/i/ulta/2632566?w=400&$ProductCardNeutralBGLight$&fmt=auto",
+      "brand": "KHLOÉ KARDASHIAN",
+      "name": "XO KHLOÉ",
+      "price":78,
+      "score": {
+        "number": 4.4,
+        "reviews": 904
+      },
+      "off":20,
+      "isFreeGift": false
+    },
+    {
+      "imageUrl": "https://media.ulta.com/i/ulta/2599602?w=400&$ProductCardNeutralBGLight$&fmt=auto",
+      "brand": "LolaVie",
+      "name": "Glossing Detangler",
+      "price":28,
+      "score": {
+        "number": 4.7,
+        "reviews": 354
+      },
+      "off":0,
+      "isFreeGift": false
+    },
+    {
+      "imageUrl": "https://media.ulta.com/i/ulta/2641278?w=400&$ProductCardNeutralBGLight$&fmt=auto",
+      "brand": "LolaVie",
+      "name": "Glossing Detangler",
+      "price":28,
+      "score": {
+        "number": 4.7,
+        "reviews": 354
+      },
+      "off":20,
+      "isFreeGift": false
+    },
+    {
+      "imageUrl": "https://media.ulta.com/i/ulta/2593006?w=400&$ProductCardNeutralBGLight$&fmt=auto",
+      "brand": "LolaVie",
+      "name": "Glossing Detangler",
+      "price":28,
+      "score": {
+        "number": 4.7,
+        "reviews": 354
+      },
+      "off":0,
+      "isFreeGift": false
+    }
+  ]
+}
