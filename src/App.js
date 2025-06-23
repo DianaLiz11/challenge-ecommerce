@@ -1,4 +1,3 @@
-// import './App.css';
 import HeroBanner from './Sections/HeroBanner';
 import ProductsCarousel from './Sections/ProductsCarousel';
 import Categories from './Sections/Categories';
