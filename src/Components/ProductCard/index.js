@@ -2,6 +2,8 @@ import React from 'react';
 import './styles.css';
 import PropTypes from 'prop-types';
 import BlackButton from '../BlackButton';
+import startEmpty from './imgs/star_empty.png';
+import startFill from './imgs/star-fill.png';
 
 const ProductCard = ({ imageUrl, brand, name, price, score, off, isFreeGift}) => {
   return (
@@ -14,7 +16,16 @@ const ProductCard = ({ imageUrl, brand, name, price, score, off, isFreeGift}) =>
       </div>
       <p className='grey-text text'>{brand}</p>
       <p className='text'>{name}</p>
-      <p className='grey-text text'>{`(${score.reviews})`}</p>
+      <div className='start-cont'>
+        <div className='start-cont'>
+          <img src={startFill} alt="start" className='start' />
+          <img src={startFill} alt="start" className='start' />
+          <img src={startFill} alt="start" className='start' />
+          <img src={startFill} alt="start" className='start' />
+          <img src={startEmpty} alt="start" className='start' />
+        </div>
+        <p className='grey-text text' style={{fontSize:'11px', marginLeft: '5px'}}>{`(${score.reviews})`}</p>
+      </div>
       <p className='text'>{`$ ${Number.parseFloat(price).toFixed(2)}`}</p>
       {isFreeGift ? (
         <p className='rose-text'>Free Gift With Purchase</p>

@@ -14,7 +14,7 @@ const ProductsCarousel = () => {
     return (
       <div
         className={className}
-        style={{ ...style, display: "block", background: "grey" }}
+        style={{ ...style, display: "block", background: "oklch(92.9% 0.013 255.508)" }}
         onClick={onClick}
       />
     );
@@ -25,7 +25,7 @@ const ProductsCarousel = () => {
     return (
       <div
         className={className}
-        style={{ ...style, display: "block", background: "grey" }}
+        style={{ ...style, display: "block", background: "oklch(92.9% 0.013 255.508)" }}
         onClick={onClick}
       />
     );
@@ -50,7 +50,7 @@ const ProductsCarousel = () => {
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 900,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
@@ -69,7 +69,7 @@ const ProductsCarousel = () => {
 
   async function getProductsList() {
   try {
-    const response = await axios.get('http://localhost:3004/products');
+    const response = await axios.get('https://raw.githubusercontent.com/DianaLiz11/challenge-ecommerce/refs/heads/master/src/utils/productsremote.json');
     console.log(response);
     setProductsList(response.data);
   } catch (error) {
@@ -82,7 +82,7 @@ const ProductsCarousel = () => {
   }, [])
 
   return (
-    <section>
+    <section className="main-cont">
       <h3>Your next fave is only at Ulta</h3>
       <p className="grey-text">{`${productsList.length} items`}</p>
       <div className="carousel-container">

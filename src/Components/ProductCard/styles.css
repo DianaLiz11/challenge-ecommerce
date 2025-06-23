@@ -49,3 +49,14 @@
   border-radius: 2rem;
   padding: 0.3px 12px;
 }
+
+.start-cont {
+  display: flex;
+  align-items: center;
+  margin: 5px 0 3px 0;
+}
+
+.start {
+  width: 12px;
+  height: 12px;
+}
